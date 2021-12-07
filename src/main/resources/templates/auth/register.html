@@ -4,23 +4,22 @@
     </head>
 <body>
     <style>
-                .form-body{
-                    max-height: 60%
-                  padding: 20px;
-                }
-                .login-card{
-                  max-height: 50%
-                  padding: 20px;
-                  margin-top: 10%;
-                }
+           .form-body{
+              max-height: 100%;
+              padding: 5%;
+            }
+            .login-card{
+              margin-top: 7%;
+              padding: 30px;
+            }
 
-            </style>
+    </style>
     <style th:replace="fragments/nav :: nav-style"></style>
-    <div class="main">
+    <div class="main" style="height: 100%;">
         <nav th:replace="fragments/nav :: nav"></nav>
-        <div class="form-body row justify-content-center align-items-center" style="max-height: 60%;">
-            <div class="col login-card card border-primary mb-3" style="max-height: 60%; max-width: 60%">
-                <div class="card-body" style="max-height: 60%;">
+        <div class="form-body row justify-content-center align-items-center" style=" overflow: auto;" >
+            <div class="col login-card card border-primary mb-3" style="max-width: 60%">
+                <div class="card-body">
                     <h4 class="card-title">Register</h4>
                     <form action="/create-restaurant" method="post">
                         <fieldset>
