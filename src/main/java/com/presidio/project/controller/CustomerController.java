@@ -8,4 +8,6 @@ public class CustomerController {
 
     @GetMapping(value="/customer/register")
     String getCustomerLogin(){ return "customer/register";}
+
+
 }

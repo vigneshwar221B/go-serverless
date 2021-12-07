@@ -6,4 +6,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class HotelController {
     @GetMapping(value="/{hotel_name}/login")
     String getCustomerLogin(){ return "hotel/login";}
+
+    @GetMapping(value="/{hotel_name}/admin")
+    String getAdminPage(){ return "admin/temp";}
 }
