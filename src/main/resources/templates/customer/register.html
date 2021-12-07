@@ -4,25 +4,26 @@
     </head>
     <body>
         <style>
-        .form-body{
-          height: 90%;
-          padding: 20px;
-        }
-        .login-card{
-          padding: 20px;
-          margin: 5%;
-        }
-        .main{
-          height: 100%;
-          overflow: hidden;
-        }
-    </style>
+            .form-body{
+              height: 90%;
+              padding: 20px;
+            }
+            .login-card{
+              padding: 20px;
+              margin: 5%;
+            }
+            .main{
+              height: 100%;
+              overflow: hidden;
+            }
+        </style>
+        <style th:replace="fragments/nav :: nav-style"></style>
         <div class="main">
             <nav th:replace="fragments/nav :: nav"></nav>
             <div class="form-body row justify-content-center align-items-center">
-                <div class="col card login-card">
+                <div class="col login-card card border-primary mb-3" style="max-width: 60%">
                     <div class="card-body">
-                        <h4 class="card-title">Login</h4>
+                        <h4 class="card-title">Register</h4>
                         <form>
                             <fieldset>
                                 <div class="form-group">
@@ -40,7 +41,7 @@
                                 </div>
                                 <br />
                                 <div class="form-group">
-                                    <button type="submit" class="btn btn-primary">Login</button>
+                                    <button type="submit" class="btn btn-secondary">Register</button>
                                 </div>
                             </fieldset>
                         </form>
