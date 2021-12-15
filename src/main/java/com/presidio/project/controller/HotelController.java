@@ -8,5 +8,5 @@ public class HotelController {
     String getCustomerLogin(){ return "hotel/login";}
 
     @GetMapping(value="/{hotel_name}/admin")
-    String getAdminPage(){ return "admin/temp";}
+    String getAdminPage(){ return "admin/index";}
 }

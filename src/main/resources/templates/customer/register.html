@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html xmlns:th="https://www.thymeleaf.org">
-    <head th:replace="fragments/header :: head('Main page')">
+    <head th:replace="fragments/header :: head('Customer register')">
     </head>
     <body>
         <style>
@@ -21,7 +21,7 @@
         <div class="main">
             <nav th:replace="fragments/nav :: nav"></nav>
             <div class="form-body row justify-content-center align-items-center">
-                <div class="col login-card card border-primary mb-3" style="max-width: 60%">
+                <div class="col login-card card border-dark mb-3" style="max-width: 60%">
                     <div class="card-body">
                         <h4 class="card-title">Register</h4>
                         <form>
@@ -41,7 +41,7 @@
                                 </div>
                                 <br />
                                 <div class="form-group">
-                                    <button type="submit" class="btn btn-secondary">Register</button>
+                                    <button type="submit" class="btn btn-dark">Register</button>
                                 </div>
                             </fieldset>
                         </form>
