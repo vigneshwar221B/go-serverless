@@ -4,7 +4,7 @@ website for managing "server" less restaurants created using spring boot and thy
 # How to use this code?
 - Make sure you have Java 8
 
-- Fork this repository and clone it
+- clone this repo
 $ https://github.com/vigneshwar221B/go-serverless.git
 
 - Navigate into the folder
